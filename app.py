@@ -29,7 +29,7 @@ if __name__ == '__main__':
         db.create_all()
         print("Creating all tables...")
         print(app.url_map)
-        app.run(debug=True, port=8084)
+        app.run(host="0.0.0.0", debug=False, port=8004)
 
 
 
