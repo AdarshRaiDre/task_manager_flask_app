@@ -9,7 +9,8 @@
 ```
 
 ```
-/taskmamager/post GET will fetch you the login form POST will give you the tiekn before that use
-/taskmanger/register GET for registration form and POST for registering
-/taskmanager/tasks POST will create a new task, PATCH will update a task, Delete will delete a task and GET will fetch all thetasks against the user
+/taskmamager/post GET will fetch you the login form POST will give you the toke.
+ Before that use
+/taskmanger/register GET for registration form. Register yourself and  use POST on the same URL for registering.
+/taskmanager/tasks POST will create a new task, PATCH will update a task, Delete will delete a task and GET will fetch all the tasks.
 ```
