@@ -9,8 +9,10 @@
 ```
 
 ```
-/taskmamager/post GET will fetch you the login form POST will give you the toke.
+/taskmamager/login: GET will fetch you the login form  and POST on same route will give you the JWT token.
+
  Before that use
-/taskmanger/register GET for registration form. Register yourself and  use POST on the same URL for registering.
-/taskmanager/tasks POST will create a new task, PATCH will update a task, Delete will delete a task and GET will fetch all the tasks.
+/taskmanger/register: GET for registration form. Register yourself and  use POST on the same URL for registering yourself.
+
+/taskmanager/tasks: POST will create a new task, PATCH will update a task, Delete will delete a task and GET will fetch all the tasks.
 ```
